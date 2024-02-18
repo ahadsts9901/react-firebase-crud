@@ -4,6 +4,7 @@ import { getFirestore, doc, setDoc, collection, getDocs, deleteDoc, updateDoc } 
 import { app } from "./firebase.config";
 
 function App() {
+  
 
   const [todos, setTodos] = useState([]);
   const [editingTodo, setEditingTodo] = useState(null);
